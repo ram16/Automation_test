@@ -2,7 +2,7 @@
 
 ## Overview
 
-Built the sample automation framework for this test. Implemented 4 tests along with this framework.
+Built the sample automation framework for this test. Implemented 3 tests along with this framework.
 
 ## Technologies
 
