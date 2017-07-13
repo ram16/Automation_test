@@ -20,7 +20,7 @@ public class TC01_VerifyLoginWithValidCredentails extends TestBase {
 	@Test
 	public void VerifyLoginWithValidCredentails() throws InterruptedException {
 		homepage = new HomePage(driver);
-		homepage.loginToApplication("panjala.ramu16@gmail.com", "password");
+		homepage.loginToApplication("frameworkbuild@gmail.com", "Framework1!");
 		Assert.assertEquals(homepage.getAuthenticationpassed(),
 				"Welcome to your account. Here you can manage all of your personal information and orders.");
 
@@ -32,3 +32,6 @@ public class TC01_VerifyLoginWithValidCredentails extends TestBase {
 
 	}
 }
+
+
+//frameworkbuild@gmail.com\Framework1!)
