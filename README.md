@@ -1,10 +1,10 @@
-RBS Test Automation Application
+## RBS Test Automation Application
 
-Overview
+## Overview
 
 Built the sample automation framework for this test. Implemented 4 tests along with this framework.
 
-Technologies
+## Technologies
 
 Java
 Selenium WebDriver
@@ -12,16 +12,16 @@ TestNG
 Maven
 Chrome
 
-Executing the Test
+## Executing the Test
 
 Run 'mvn clean install -DskipTests'
 Run 'mvn test'
 
-Test Reports
+## Test Reports
 
 Please see the test reports in this path .\rbs.Automation\test-output\index.html
 
-Improvements
+## Improvements
 
 Framework code needs to seperated as a dependent maven project.
 Code comments and method comments needs to be added.
