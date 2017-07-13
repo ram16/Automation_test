@@ -23,13 +23,13 @@ public class TC02_VerifyTheUpdatedPersonalInformation extends TestBase {
 	@Test
 	public void VerifyTheUpdatedPersonalInformation() throws InterruptedException {
 		homepage = new HomePage(driver);
-		homepage.loginToApplication("panjala.ramu16@gmail.com", "password");
+		homepage.loginToApplication("frameworkbuild@gmail.com", "Framework1!");
 		Assert.assertEquals(homepage.getAuthenticationpassed(),
 				"Welcome to your account. Here you can manage all of your personal information and orders.");
 		myAccountPage = new MyAccountPage(driver);
 		myAccountPage.MyAccountPageUpdate();
 		personalInformationPage = new PersonalInformationPage(driver);
-		personalInformationPage.UpdatePersonalInformation("Panjala", "password321", "password3", "password3");
+		personalInformationPage.UpdatePersonalInformation("Panjala", "Framework1!", "password3", "password3");
 		Assert.assertEquals(personalInformationPage.Message(),
 				"Your personal information has been successfully updated.");
 

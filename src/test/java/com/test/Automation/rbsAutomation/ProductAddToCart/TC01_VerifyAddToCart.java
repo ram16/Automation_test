@@ -23,7 +23,7 @@ public class TC01_VerifyAddToCart extends TestBase {
 	@Test
 	public void VerifyAddToCart() throws InterruptedException {
 		homepage = new HomePage(driver);
-		homepage.loginToApplication("panjala.ramu16@gmail.com", "password");
+		homepage.loginToApplication("frameworkbuild@gmail.com", "Framework1!");
 		Assert.assertEquals(homepage.getAuthenticationpassed(),
 				"Welcome to your account. Here you can manage all of your personal information and orders.");
 		homepage.moveMouseOver(homepage.women);
