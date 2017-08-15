@@ -1,4 +1,4 @@
-## RBS Test Automation Application
+## Test Automation Application
 
 ## Overview
 
